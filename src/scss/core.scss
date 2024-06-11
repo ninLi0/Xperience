@@ -13,6 +13,27 @@
     font-family: "Expletus Sans", sans-serif;
 }
 
+.profile {
+    text-align: center;
+    .name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+        
+        .icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+
+            a {
+                margin: 0 5px; // Adjust spacing between icons if needed
+            }
+        }
+    }
+}
+
 
 
 
